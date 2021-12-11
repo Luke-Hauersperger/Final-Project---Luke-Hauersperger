@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    background-color: rebeccapurple;
+}
+nav{
+    text-align: right;
+    height: 80px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 99;}
+#home {
+    color: white;
+}
+#about {
+    color: white;
+}
+#products {
+    color: white;
+}
+#contact {
+    color: white;
+}
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.oceanLogo{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://s3.envato.com/files/251688753/preview-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    right: 100%;
+    background-image: url("https://image.shutterstock.com/image-photo/handsome-bearded-guy-beard-moustache-260nw-1964820121.jpg");}
+
+.navigation_text{
+    height: 60px;
+    width: 320px;
+    display: flex;
+}
+
+.insideproduct{
+    color: cadetblue;
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.smallContentBox {
+    background-color: cadetblue;
+    min-height: 100px;
+    min-width: 200px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.smallContentBoxBar{
+    background-color: steelblue;
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+h1 {
+    color: turquoise;
+    background-color: steelblue;
+}
+
+p{
+    color:turquoise;
+}
+.p2{
+    color:turquoise;
+    background-color: steelblue;
+    font-size: 30px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+}
+.smallContentBox {
+    background-color: blue;
+    min-height: 100px;
+    min-width: 200px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.last_two{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 800px;
+}
+
+.lipsumContain{
+    height: 250px;
+    background-color: steelblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.lipsumBox{
+    max-width: 600px;
+    max-height: 144px;
+}
+.largeBoxContain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.largeContentBoxBar {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+.largeContentBox1 {
+    background-color: steelblue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.largeContentBox2 {
+    background-color: steelblue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.largeContentBox3 {
+    background-color: steelblue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.largeContentBox4 {
+    background-color: steelblue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.footer_text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+.copyright{
+    display: flex;
+}
+
+.copyrightYearContain{
+    display:flex;
+}
+.FakeItem1 {
+    position: fixed;
+    bottom: 300px;
+    left: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+.FakeItem2 {
+    position: fixed;
+    bottom: 300px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+.FakeItem3 {
+    position: fixed;
+    bottom: 300px;
+    left: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+.FakeItem4 {
+    position: fixed;
+    bottom: 300px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
